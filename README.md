@@ -51,8 +51,8 @@ sudo apt install -y ffmpeg plymouth plymouth-themes
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/plymouth-video-installer.git
-cd plymouth-video-installer
+git clone https://github.com/Leewoii/Plymouth-Video-Animation-Installer.git
+cd Plymouth-Video-Animation-Installer
 chmod +x plymouth_theme.sh
 ```
 
