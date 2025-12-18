@@ -83,7 +83,7 @@ Best for manual installs or first-time use.
 ### Way 2 — Non-Interactive Mode (CLI Flags)
 
 ```bash
-sudo ./plymouth_theme.sh -t Defcomm -d 2
+sudo ./plymouth_theme.sh -t Leewoii -d 2
 ```
 
 **Parameters:**
