@@ -66,22 +66,6 @@ Ensure your video file:
 
 ## Usage
 
-### Way 1 — Interactive Mode
-
-```bash
-sudo ./plymouth_theme.sh
-```
-
-You will be prompted for:
-
-* Plymouth theme name
-
-Best for manual installs or first-time use.
-
----
-
-### Way 2 — Non-Interactive Mode (CLI Flags)
-
 ```bash
 sudo ./plymouth_theme.sh -t Leewoii -d 2
 ```
