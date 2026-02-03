@@ -74,7 +74,7 @@ echo "Extracting frames from video..."
 ### Extract frames (1280x720, numbered)
 ffmpeg -y -i "$VIDEO_FILE" \
   -vf "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2" \
-  "$FRAMES_DIR/frame-%d.png"
+  "$FRAMES_DIR/progress-%d.png"
 
 FRAME_COUNT="$(ls "$FRAMES_DIR"/progress-*.png | wc -l)"
 
